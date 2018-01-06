@@ -2,6 +2,8 @@
 webapp in sinatra producing addition questions
 
 The language used is ruby with the gem sinatra.
+Requirements:
+Requires the gems sinatra and json.
 
 A few assumptions have been made.
 
@@ -14,4 +16,6 @@ A few assumptions have been made.
    them down
 4. If the user enters anything other than a number then it is assumed to be 0. So 
    2 string inputs would lead to a range error but a string and a number (n) would 
-   take the range 0 - n.
+   take the range 0 - n
+   
+   
